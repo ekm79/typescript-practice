@@ -31,7 +31,7 @@ function Form() {
 		return name.length;
 	}
 
-	const addMessage = function (message: string) {
+	const addMessage = function (message: string): string {
 		return message + name + '!';
 	}
 
